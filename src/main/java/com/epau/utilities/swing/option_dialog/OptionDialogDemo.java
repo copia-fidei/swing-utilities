@@ -1,6 +1,6 @@
 package com.epau.utilities.swing.option_dialog;
 
-import com.epau.utilities.swing.test.TestFrames;
+import com.epau.utilities.swing.frame.TestFrames;
 import org.jetbrains.annotations.NonNls;
 
 import java.util.List;
