@@ -27,7 +27,7 @@ import static java.awt.KeyboardFocusManager.getCurrentKeyboardFocusManager;
 import static javax.swing.BoxLayout.LINE_AXIS;
 import static javax.swing.SwingUtilities.invokeAndWait;
 
-public class DecisionDialog extends JDialog {
+public class OptionDialog extends JDialog {
 
 	private final Nls nls = new Nls(this);
 
@@ -37,7 +37,7 @@ public class DecisionDialog extends JDialog {
 	private final List<Option> options     = new ArrayList<>();
 	private final Option       defaultChoice;
 
-	public DecisionDialog(Window parent, String title, String description, List<Option> options, Option defaultChoice) {
+	public OptionDialog(Window parent, String title, String description, List<Option> options, Option defaultChoice) {
 		super(parent, title, ModalityType.APPLICATION_MODAL);
 
 		this.description = description;
@@ -52,7 +52,7 @@ public class DecisionDialog extends JDialog {
 	public static Option showDialog(String title, String description, List<Option> options, Option defaultChoice) throws InterruptedException, InvocationTargetException {
 		Option[] choice = new Option[1];
 		invokeAndWait(() -> {
-			var dialog = new DecisionDialog(getCurrentKeyboardFocusManager().getFocusedWindow(), title, description, options, defaultChoice);
+			var dialog = new OptionDialog(getCurrentKeyboardFocusManager().getFocusedWindow(), title, description, options, defaultChoice);
 			dialog.setVisible(true);
 			choice[0] = dialog.getSelected();
 		});

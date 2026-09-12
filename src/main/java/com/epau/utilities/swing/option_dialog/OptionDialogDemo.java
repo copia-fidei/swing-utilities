@@ -5,7 +5,7 @@ import org.jetbrains.annotations.NonNls;
 
 import java.util.List;
 
-class DecisionDialogDemo {
+class OptionDialogDemo {
 
 	static void main() {
 		@NonNls var options = List.of(
@@ -26,8 +26,8 @@ class DecisionDialogDemo {
 				)
 		);
 		TestFrames.showDialog(
-				"DecisionDialog Demo", //NON-NLS
-				parent -> new DecisionDialog(
+				"OptionDialog Demo", //NON-NLS
+				parent -> new OptionDialog(
 						parent,
 						"Choose an action", //NON-NLS
 						"Please select what you would like to do:", //NON-NLS
