@@ -1,0 +1,22 @@
+package com.epau.utilities.swing.text;
+
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
+import java.util.function.Consumer;
+
+/// Listens to every document event (insert, remove, change) with one method.
+public record DocumentChangedListener(Consumer<DocumentEvent> consumer) implements DocumentListener {
+
+	public DocumentChangedListener(Runnable runnable) {
+		this(_ -> runnable.run());
+	}
+
+	@Override
+	public void insertUpdate(DocumentEvent e) { consumer.accept(e); }
+
+	@Override
+	public void removeUpdate(DocumentEvent e) { consumer.accept(e); }
+
+	@Override
+	public void changedUpdate(DocumentEvent e) { consumer.accept(e); }
+}
