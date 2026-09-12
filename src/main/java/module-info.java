@@ -13,6 +13,7 @@ module com.epau.utilities.swing {
 	exports com.epau.utilities.swing.option_dialog;
 	exports com.epau.utilities.swing.frame;
 	exports com.epau.utilities.swing.text;
+	exports com.epau.utilities.swing.toast;
 
 	opens com.epau.utilities.swing.icons.svgrepo;
 }
