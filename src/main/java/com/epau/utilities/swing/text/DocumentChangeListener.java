@@ -5,9 +5,9 @@ import javax.swing.event.DocumentListener;
 import java.util.function.Consumer;
 
 /// Listens to every document event (insert, remove, change) with one method.
-public record DocumentChangedListener(Consumer<DocumentEvent> consumer) implements DocumentListener {
+public record DocumentChangeListener(Consumer<DocumentEvent> consumer) implements DocumentListener {
 
-	public DocumentChangedListener(Runnable runnable) {
+	public DocumentChangeListener(Runnable runnable) {
 		this(_ -> runnable.run());
 	}
 
