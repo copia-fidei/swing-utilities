@@ -1,4 +1,4 @@
-package com.epau.utilities.swing.text;
+package com.epau.util.swing.text;
 
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;

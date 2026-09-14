@@ -1,4 +1,4 @@
-package com.epau.utilities.swing;
+package com.epau.util.swing;
 
 import java.awt.Color;
 

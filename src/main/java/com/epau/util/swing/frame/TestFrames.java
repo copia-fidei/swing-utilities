@@ -1,4 +1,4 @@
-package com.epau.utilities.swing.frame;
+package com.epau.util.swing.frame;
 
 import javax.swing.JDialog;
 import javax.swing.JFrame;

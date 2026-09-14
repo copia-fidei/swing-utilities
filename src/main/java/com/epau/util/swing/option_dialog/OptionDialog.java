@@ -1,6 +1,6 @@
-package com.epau.utilities.swing.option_dialog;
+package com.epau.util.swing.option_dialog;
 
-import com.epau.utilities.nls.Nls;
+import com.epau.util.nls.Nls;
 
 import javax.swing.BoxLayout;
 import javax.swing.ButtonGroup;

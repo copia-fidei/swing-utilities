@@ -1,7 +1,7 @@
-package com.epau.utilities.swing.toast;
+package com.epau.util.swing.toast;
 
-import com.epau.utilities.swing.Colors;
-import com.epau.utilities.swing.Icons;
+import com.epau.util.swing.Colors;
+import com.epau.util.swing.Icons;
 
 public record StatusBar(Toast toast) {
 

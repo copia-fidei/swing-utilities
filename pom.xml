@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.epau.utilities.swing</groupId>
-    <artifactId>swing-utilities</artifactId>
+    <groupId>com.epau.util.swing</groupId>
+    <artifactId>swing-util</artifactId>
     <version>1.0.0</version>
 
     <properties>
@@ -13,7 +13,7 @@
         <maven.compiler.target>25</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <flatlaf.version>3.7.2</flatlaf.version>
-        <demo.module.mainClass>com.epau.utilities.swing/com.epau.utilities.swing.toast.StatusBarDemo</demo.module.mainClass>
+        <demo.module.mainClass>com.epau.util.swing/com.epau.util.swing.toast.StatusBarDemo</demo.module.mainClass>
     </properties>
     <dependencies>
         <dependency>
@@ -33,7 +33,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com.epau.utilities</groupId>
+            <groupId>com.epau.util.nls</groupId>
             <artifactId>nls</artifactId>
             <version>1.0.0</version>
         </dependency>

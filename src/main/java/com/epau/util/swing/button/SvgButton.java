@@ -1,4 +1,4 @@
-package com.epau.utilities.swing.button;
+package com.epau.util.swing.button;
 
 import com.formdev.flatlaf.extras.FlatSVGIcon;
 import org.jetbrains.annotations.NonNls;

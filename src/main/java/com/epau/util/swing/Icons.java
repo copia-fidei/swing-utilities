@@ -1,4 +1,4 @@
-package com.epau.utilities.swing;
+package com.epau.util.swing;
 
 import com.formdev.flatlaf.extras.FlatSVGIcon;
 import com.formdev.flatlaf.extras.FlatSVGIcon.ColorFilter;
@@ -9,9 +9,9 @@ import java.awt.Color;
 @NonNls
 public interface Icons {
 
-	String ERROR_ICON_PATH     = "com/epau/utilities/swing/icons/svgrepo/error-svgrepo-com.svg";
-	String WARNING_ICON_PATH   = "com/epau/utilities/swing/icons/svgrepo/warning-filled-svgrepo-com.svg";
-	String INFO_ICON_PATH      = "com/epau/utilities/swing/icons/svgrepo/info-svgrepo-com.svg";
+	String ERROR_ICON_PATH     = "com/epau/util/swing/icons/svgrepo/error-svgrepo-com.svg";
+	String WARNING_ICON_PATH   = "com/epau/util/swing/icons/svgrepo/warning-filled-svgrepo-com.svg";
+	String INFO_ICON_PATH      = "com/epau/util/swing/icons/svgrepo/info-svgrepo-com.svg";
 
 	static FlatSVGIcon error(int size) {
 		return newIcon(ERROR_ICON_PATH, Colors.ERROR, size);

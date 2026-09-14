@@ -1,3 +1,3 @@
-package com.epau.utilities.swing.option_dialog;
+package com.epau.util.swing.option_dialog;
 
 public record Option(Object id, String description, String tooltip) {}

@@ -1,4 +1,4 @@
-package com.epau.utilities.swing.toast;
+package com.epau.util.swing.toast;
 
 import org.jetbrains.annotations.NonNls;
 

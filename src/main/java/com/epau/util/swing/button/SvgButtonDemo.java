@@ -1,7 +1,7 @@
-package com.epau.utilities.swing.button;
+package com.epau.util.swing.button;
 
-import com.epau.utilities.swing.Icons;
-import com.epau.utilities.swing.frame.TestFrames;
+import com.epau.util.swing.Icons;
+import com.epau.util.swing.frame.TestFrames;
 
 class SvgButtonDemo {
 
