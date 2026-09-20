@@ -1,17 +1,15 @@
 The icons in
 src/main/resources/com/epau/util/swing/icons/svgrepo
-are from the icon pack: Siemens Industrial Experience Icons.
+are from the icon pack: Siemens Industrial Experience Icons (https://github.com/siemens/ix-icons).
 
-Icon: warning-filled.svg
+Icon: warning-filled.svg  
 Download link: https://www.svgrepo.com/svg/486508/warning-filled
 
-Icon: error-svgrepo-com.svg
+Icon: error-svgrepo-com.svg  
 Download link: https://www.svgrepo.com/svg/486662/error
 
-Icon: info-svgrepo-com.svg
+Icon: info-svgrepo-com.svg  
 Download link: https://www.svgrepo.com/svg/486702/info
-
-Source: https://github.com/siemens/ix-icons
 
 MIT License
 
