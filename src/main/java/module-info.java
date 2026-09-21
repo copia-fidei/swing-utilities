@@ -15,5 +15,6 @@ module com.epau.util.swing {
 	exports com.epau.util.swing.text;
 	exports com.epau.util.swing.toast;
 	exports com.epau.util.swing.button;
+	exports com.epau.util.swing.evt;
 
 }
